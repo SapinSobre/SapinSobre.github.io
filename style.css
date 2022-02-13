@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('OpenSans.eot');
+    src: url('Open_Sans/static/OpenSans/OpenSans-Regular.ttf') format("truetype"),
+        url('Open_Sans/static/OpenSans/OpenSans-Bold.ttf') format("truetype"),
+        url('Open_Sans/static/OpenSans/OpenSans-Italic.ttf') format("truetype");
+}
+body{
+    font-family: Open-Sans, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-color: #ebebeb;  
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+header, section{
+    position: relative;
+    width: 36%;
+    left: 32%;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-radius: 2%;
+}
+header img{
+    border: 3px solid #dcdcdc;
+    border-radius: 50%;
+    border-inline-style: inset;
+    width: 25%;
+    height: auto;
+}
+figure{
+    display: block;
+    margin-left: 8%;
+}
+figure img{
+    display: inline-block;
+    width: 15%;
+}
+figcaption{
+    display: inline-block;
+    width: 80%;
+}
+h1 {
+    color: #dd5555;
+    margin-top: 3%;
+    font-weight: bold;
+}
+h2, h3, p {
+    color: #7d7e80;
+}
+span {
+    background-color: #e8e5e5;
+}
+h3{
+    margin: 0;
+}
+p {
+    width: 90%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+h3 {
+    padding: 5%;
+}
+header a{
+    text-decoration: none;
+    width: 30%;
+    height: 20px;
+    color: white;
+    background-color: #dd5555;
+    border-radius: 5%;
+    padding: 2%;    
+}
+li a figure figcaption:hover, li a figure i:hover{
+    color: #dd5555;
+}
+li figure {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+li figure figcaption h3{
+    padding-top: 0;
+    margin-top: 0;
+}
+li figure{
+    display: inline-block;     
+    text-align: center;
+}
+li figure figcaption {
+    display: block;
+    text-align: center;
+    padding-left: 10%;
+    color: #afacac;
+}
+ul{
+    position:relative;
+    left: -5%;
+    height:50px;
+    list-style-type: none;
+}
+figure i {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #afacac;
+}
+li figure{
+    padding: -10%;
+    margin: 0;
+}
+li{
+    width: 20%;
+    display: inline-block;
+}
